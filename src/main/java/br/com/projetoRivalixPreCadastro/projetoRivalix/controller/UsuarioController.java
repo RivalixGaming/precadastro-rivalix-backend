@@ -41,7 +41,7 @@ public class UsuarioController {
     @Value("${admin.token}")
     private String adminToken;
 
-    @GetMapping("/usuarios")
+    @GetMapping
     public ResponseEntity<?> listarUsuarios(@RequestHeader("X-ADMIN-TOKEN") String token) {
         if (!adminToken.equals(token)) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Acesso negado");
