@@ -33,4 +33,8 @@ public class Usuario {
 	
 	@Column(name = "termos_uso", nullable = false)
 	private boolean termosUso;
+
+	@Column(name = "interest", length = 50, nullable = false)
+	private String interest;
+
 }
