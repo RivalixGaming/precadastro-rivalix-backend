@@ -1,7 +1,6 @@
 package br.com.projetoRivalixPreCadastro.projetoRivalix.controller;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.springframework.http.HttpStatus;
